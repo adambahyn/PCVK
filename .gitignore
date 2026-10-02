@@ -1,0 +1,5 @@
+# Abaikan folder docs
+docs/
+
+# Abaikan file aturan laporan jobsheet
+ATURAN_LAPORAN_JOBSHEET.md
