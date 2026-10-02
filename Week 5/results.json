@@ -1,0 +1,267 @@
+{
+  "nama": "Adam Bahy Maulana",
+  "nim": "244107020207",
+  "absen": "2",
+  "N": 207,
+  "PARAM": {
+    "bins": 64,
+    "clip": 2.0,
+    "tile": 5,
+    "L": 2
+  },
+  "ukuran": {
+    "lena": [
+      200,
+      250,
+      3
+    ],
+    "lena_lc": [
+      200,
+      250,
+      3
+    ],
+    "KTM1a": [
+      1730,
+      3076,
+      3
+    ],
+    "KTM1b": [
+      2160,
+      3448,
+      3
+    ],
+    "KTM1c": [
+      2160,
+      3393,
+      3
+    ],
+    "KTM1d": [
+      2160,
+      3598,
+      3
+    ]
+  },
+  "E1": {
+    "verifikasi_histogram": {
+      "lena.jpg": {
+        "sum": 50000,
+        "manual": 50000,
+        "selisih_numpy": 0,
+        "selisih_cv2": 0,
+        "detik_manual": 0.02,
+        "detik_numpy": 0.00351,
+        "detik_cv2": 0.0001
+      },
+      "KTM1b.jpg": {
+        "sum": 7447680,
+        "manual": 7447680,
+        "selisih_numpy": 0,
+        "selisih_cv2": 0,
+        "detik_manual": 4.08,
+        "detik_numpy": 0.1381,
+        "detik_cv2": 0.0029
+      },
+      "bins": {
+        "bins": 64,
+        "terisi": 55,
+        "total": 64,
+        "level_aktif_256": 219,
+        "lebar_bin": 4
+      }
+    },
+    "stat_ktm": {
+      "KTM1a.jpg": {
+        "kondisi": "ruangan gelap",
+        "rerata": 19.8,
+        "std": 13.0,
+        "p05": 3,
+        "p50": 20,
+        "p95": 41,
+        "min": 0,
+        "max": 125
+      },
+      "KTM1b.jpg": {
+        "kondisi": "lampu ruangan",
+        "rerata": 155.5,
+        "std": 52.6,
+        "p05": 79,
+        "p50": 190,
+        "p95": 203,
+        "min": 0,
+        "max": 218
+      },
+      "KTM1c.jpg": {
+        "kondisi": "flash",
+        "rerata": 182.0,
+        "std": 52.4,
+        "p05": 92,
+        "p50": 203,
+        "p95": 248,
+        "min": 3,
+        "max": 255
+      },
+      "KTM1d.jpg": {
+        "kondisi": "luar (matahari)",
+        "rerata": 117.1,
+        "std": 57.1,
+        "p05": 38,
+        "p50": 156,
+        "p95": 172,
+        "min": 0,
+        "max": 242
+      }
+    },
+    "bins": {
+      "bins": 64,
+      "terisi": 55,
+      "total": 64,
+      "level_aktif_256": 219,
+      "lebar_bin": 4
+    }
+  },
+  "E2": {
+    "equalize_manual": {
+      "lena_lc.jpg": {
+        "selisih_maks": 0,
+        "rerata_awal": 125.6,
+        "rerata_he": 128.4,
+        "std_awal": 46.2,
+        "std_he": 73.6
+      },
+      "KTM1a.jpg": {
+        "selisih_maks": 1,
+        "rerata_awal": 19.8,
+        "rerata_he": 131.2,
+        "std_awal": 13.0,
+        "std_he": 72.2
+      }
+    },
+    "warna_kanal": [
+      [
+        "Asli",
+        0.0,
+        117.1
+      ],
+      [
+        "Ekualisasi B, G, R",
+        63.98,
+        129.8
+      ],
+      [
+        "Kanal Y",
+        1.02,
+        130.2
+      ],
+      [
+        "Kanal V",
+        0.88,
+        112.9
+      ],
+      [
+        "Kanal L",
+        2.43,
+        123.4
+      ]
+    ],
+    "clahe_warna": [
+      [
+        "Asli",
+        0.0,
+        117.1
+      ],
+      [
+        "Kanal Y (equalizeHist)",
+        1.02,
+        130.2
+      ],
+      [
+        "Kanal Y (CLAHE)",
+        0.07,
+        128.4
+      ],
+      [
+        "Kanal L (CLAHE)",
+        1.67,
+        126.7
+      ]
+    ],
+    "psnr_ktm1a": {
+      "psnr_manual": 6.11,
+      "psnr_cv": 6.12,
+      "mse_manual": 15917.7,
+      "std_awal": 13.0,
+      "std_he": 72.2,
+      "kontras_awal": 38,
+      "kontras_he": 220
+    },
+    "clahe_ktm1a": [
+      [
+        1.0,
+        30.3,
+        17.3,
+        3.5,
+        3.5
+      ],
+      [
+        1.5,
+        34.8,
+        19.6,
+        4.3,
+        4.3
+      ],
+      [
+        2.0,
+        39.1,
+        22.0,
+        5.1,
+        5.1
+      ],
+      [
+        2.5,
+        43.2,
+        24.2,
+        5.8,
+        5.8
+      ],
+      [
+        3.0,
+        46.9,
+        26.2,
+        6.6,
+        6.6
+      ]
+    ],
+    "noise_asli": 1.8,
+    "noise_he": 11.3
+  },
+  "E3": {
+    "dithering_kondisi": {
+      "lena_lc.jpg": {
+        "lap_langsung": 631.5,
+        "lap_eq_dulu": 463.5,
+        "putih_langsung": 49.2,
+        "putih_eq_dulu": 50.3
+      },
+      "KTM1a.jpg": {
+        "lap_langsung": 158.3,
+        "lap_eq_dulu": 474.4,
+        "putih_langsung": 7.8,
+        "putih_eq_dulu": 51.4
+      }
+    },
+    "level_ktm1b": [
+      0,
+      255
+    ],
+    "level_lena": [
+      0,
+      255
+    ],
+    "verifikasi_manual_piksel": {
+      "masuk": 130,
+      "keluar": 255,
+      "tetangga_kanan_140_jadi": 0,
+      "error": -125
+    }
+  }
+}
