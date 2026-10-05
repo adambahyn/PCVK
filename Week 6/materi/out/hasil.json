@@ -1,0 +1,61 @@
+{
+ "nama": "Adam Bahy Maulana",
+ "nim": "244107020207",
+ "no_absen": 2,
+ "token": "aaaf491ba3010025",
+ "N": 207,
+ "waktu": "2026-10-02T22:57:26.020685+07:00",
+ "mandrill_shape": [
+  512,
+  512,
+  3
+ ],
+ "mandrill_gray_shape": [
+  512,
+  512
+ ],
+ "verifikasi_ukuran": [
+  64,
+  64
+ ],
+ "verifikasi_konvolusi_selisih_maks": 0,
+ "gaussian21_sigma": 4.582576,
+ "gaussian21_jumlah_koef": 1.0,
+ "gaussian21_koef_maks": 0.007919,
+ "terang_asli": 129.61581802368164,
+ "terang_blur21": 128.80673599243164,
+ "terang_lowpass": 128.8656414177353,
+ "terang_highpass": 40.52797544247453,
+ "kontras_asli": 42.31267740948821,
+ "kontras_highpass": 66.70292589586214,
+ "t1_densitas": 0.0497894287109375,
+ "t1_mae_mean": 17.573501586914062,
+ "t1_mae_median": 13.631851196289062,
+ "t1_sisa_mean": 0.0,
+ "t1_sisa_median": 0.0,
+ "t1_sisa_asli": 0.0,
+ "t2_var_laplacian": {
+  "Asli": 6563.509345351718,
+  "Buram": 60.161002898355946,
+  "Sharpen 3x3": 5.531158178113401,
+  "Sharpen 5x5": 0.1324310281779617
+ },
+ "t2_noise_datar": {
+  "Asli": 34.54269917517574,
+  "Buram": 22.214926109566335,
+  "Sharpen 3x3": 0.45394681869001163,
+  "Sharpen 5x5": 0.015355164394113515
+ },
+ "t3_jumlah_garis": {
+  "blok09_C09": 0.0974560546875,
+  "blok15_C05": 0.2594580078125,
+  "blok25_C03": 0.37735921223958335
+ },
+ "p3_bobot_mean": [
+  0.14471,
+  0.15081
+ ],
+ "p3_selisih_bobot_maks": 0.5027,
+ "p4_mask_pusat": 1.0,
+ "p4_mask_sudut": 0.4999840311447615
+}
