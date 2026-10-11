@@ -1,0 +1,554 @@
+{
+ "ktp_adam.jpg": {
+  "nama": "Adam Bahy Maulana",
+  "rows": [
+   {
+    "acuan": "PROVINSI",
+    "hasil": {
+     "Berwarna": "PROVINSI",
+     "Berwarna_ok": true,
+     "Otsu": "",
+     "Otsu_ok": false,
+     "Adaptive": "neravhin",
+     "Adaptive_ok": false
+    }
+   },
+   {
+    "acuan": "JAWA",
+    "hasil": {
+     "Berwarna": "JAWA",
+     "Berwarna_ok": true,
+     "Otsu": "aa",
+     "Otsu_ok": false,
+     "Adaptive": "aa",
+     "Adaptive_ok": false
+    }
+   },
+   {
+    "acuan": "TIMUR",
+    "hasil": {
+     "Berwarna": "TIMUR",
+     "Berwarna_ok": true,
+     "Otsu": "ti",
+     "Otsu_ok": false,
+     "Adaptive": "sebmur",
+     "Adaptive_ok": false
+    }
+   },
+   {
+    "acuan": "ADAM",
+    "hasil": {
+     "Berwarna": "ADAM",
+     "Berwarna_ok": true,
+     "Otsu": "aa",
+     "Otsu_ok": false,
+     "Adaptive": "aa",
+     "Adaptive_ok": false
+    }
+   },
+   {
+    "acuan": "BAHY",
+    "hasil": {
+     "Berwarna": "BAHY",
+     "Berwarna_ok": true,
+     "Otsu": "ay",
+     "Otsu_ok": false,
+     "Adaptive": "efrboarh",
+     "Adaptive_ok": false
+    }
+   },
+   {
+    "acuan": "MAULANA",
+    "hasil": {
+     "Berwarna": "MAULANA",
+     "Berwarna_ok": true,
+     "Otsu": "maa",
+     "Otsu_ok": false,
+     "Adaptive": "",
+     "Adaptive_ok": false
+    }
+   },
+   {
+    "acuan": "LAKI-LAKI",
+    "hasil": {
+     "Berwarna": "laki lak",
+     "Berwarna_ok": false,
+     "Otsu": "aih a",
+     "Otsu_ok": false,
+     "Adaptive": "",
+     "Adaptive_ok": false
+    }
+   },
+   {
+    "acuan": "KEMIRAHAN",
+    "hasil": {
+     "Berwarna": "KEMIRAHAN",
+     "Berwarna_ok": true,
+     "Otsu": "kotamalang",
+     "Otsu_ok": false,
+     "Adaptive": "kteainatan",
+     "Adaptive_ok": false
+    }
+   },
+   {
+    "acuan": "PURWODADI",
+    "hasil": {
+     "Berwarna": "",
+     "Berwarna_ok": false,
+     "Otsu": "",
+     "Otsu_ok": false,
+     "Adaptive": "",
+     "Adaptive_ok": false
+    }
+   },
+   {
+    "acuan": "BLIMBING",
+    "hasil": {
+     "Berwarna": "kelamin",
+     "Berwarna_ok": false,
+     "Otsu": "",
+     "Otsu_ok": false,
+     "Adaptive": "",
+     "Adaptive_ok": false
+    }
+   }
+  ],
+  "ringkas": {
+   "Berwarna": {
+    "tepat": 7,
+    "persen": 70.0,
+    "conf": 79.94
+   },
+   "Otsu": {
+    "tepat": 0,
+    "persen": 0.0,
+    "conf": 75.12
+   },
+   "Adaptive": {
+    "tepat": 0,
+    "persen": 0.0,
+    "conf": 76.53
+   }
+  },
+  "otsu_T": 161,
+  "shape": [
+   1753,
+   2762,
+   3
+  ]
+ },
+ "ktp_fulan.jpg": {
+  "nama": "Fulan",
+  "rows": [
+   {
+    "acuan": "PROVINSI",
+    "hasil": {
+     "Berwarna": "PROVINSI",
+     "Berwarna_ok": true,
+     "Otsu": "PROVINSI",
+     "Otsu_ok": true,
+     "Adaptive": "PROVINSI",
+     "Adaptive_ok": true
+    }
+   },
+   {
+    "acuan": "JAKARTA",
+    "hasil": {
+     "Berwarna": "JAKARTA",
+     "Berwarna_ok": true,
+     "Otsu": "JAKARTA",
+     "Otsu_ok": true,
+     "Adaptive": "JAKARTA",
+     "Adaptive_ok": true
+    }
+   },
+   {
+    "acuan": "TIMUR",
+    "hasil": {
+     "Berwarna": "TIMUR",
+     "Berwarna_ok": true,
+     "Otsu": "TIMUR",
+     "Otsu_ok": true,
+     "Adaptive": "TIMUR",
+     "Adaptive_ok": true
+    }
+   },
+   {
+    "acuan": "BILLY",
+    "hasil": {
+     "Berwarna": "BILLY",
+     "Berwarna_ok": true,
+     "Otsu": "BILLY",
+     "Otsu_ok": true,
+     "Adaptive": "BILLY",
+     "Adaptive_ok": true
+    }
+   },
+   {
+    "acuan": "BUMBLEBEE",
+    "hasil": {
+     "Berwarna": "BUMBLEBEE",
+     "Berwarna_ok": true,
+     "Otsu": "BUMBLEBEE",
+     "Otsu_ok": true,
+     "Adaptive": "BUMBLEBEE",
+     "Adaptive_ok": true
+    }
+   },
+   {
+    "acuan": "SIFULAN",
+    "hasil": {
+     "Berwarna": "SIFULAN",
+     "Berwarna_ok": true,
+     "Otsu": "SIFULAN",
+     "Otsu_ok": true,
+     "Adaptive": "SIFULAN",
+     "Adaptive_ok": true
+    }
+   },
+   {
+    "acuan": "SURABAYA",
+    "hasil": {
+     "Berwarna": "SURABAYA",
+     "Berwarna_ok": true,
+     "Otsu": "SURABAYA",
+     "Otsu_ok": true,
+     "Adaptive": "SURABAYA",
+     "Adaptive_ok": true
+    }
+   },
+   {
+    "acuan": "3175070101909999",
+    "hasil": {
+     "Berwarna": "3175070101909999",
+     "Berwarna_ok": true,
+     "Otsu": "3175070101909999",
+     "Otsu_ok": true,
+     "Adaptive": "3175070103999999",
+     "Adaptive_ok": false
+    }
+   },
+   {
+    "acuan": "LAKI-LAKI",
+    "hasil": {
+     "Berwarna": "LAKI-LAKI",
+     "Berwarna_ok": true,
+     "Otsu": "LAKI-LAKI",
+     "Otsu_ok": true,
+     "Adaptive": "LAKI-LAKI",
+     "Adaptive_ok": true
+    }
+   },
+   {
+    "acuan": "ANTAH BERANTAH",
+    "hasil": {
+     "Berwarna": "ANTAH BERANTAH",
+     "Berwarna_ok": true,
+     "Otsu": "ANTAH BERANTAH",
+     "Otsu_ok": true,
+     "Adaptive": "ANTAH BERANTAH",
+     "Adaptive_ok": true
+    }
+   }
+  ],
+  "ringkas": {
+   "Berwarna": {
+    "tepat": 10,
+    "persen": 100.0,
+    "conf": 87.94
+   },
+   "Otsu": {
+    "tepat": 10,
+    "persen": 100.0,
+    "conf": 86.92
+   },
+   "Adaptive": {
+    "tepat": 9,
+    "persen": 90.0,
+    "conf": 83.52
+   }
+  },
+  "otsu_T": 150,
+  "shape": [
+   458,
+   694,
+   3
+  ]
+ },
+ "ktp_fulani.jpg": {
+  "nama": "Fulani",
+  "rows": [
+   {
+    "acuan": "PROVINSI",
+    "hasil": {
+     "Berwarna": "PROVINSI",
+     "Berwarna_ok": true,
+     "Otsu": "PROVINSI",
+     "Otsu_ok": true,
+     "Adaptive": "",
+     "Adaptive_ok": false
+    }
+   },
+   {
+    "acuan": "TEMPAT",
+    "hasil": {
+     "Berwarna": "TEMPAT",
+     "Berwarna_ok": true,
+     "Otsu": "TEMPAT",
+     "Otsu_ok": true,
+     "Adaptive": "TEMPAT",
+     "Adaptive_ok": true
+    }
+   },
+   {
+    "acuan": "ANDA",
+    "hasil": {
+     "Berwarna": "ANDA",
+     "Berwarna_ok": true,
+     "Otsu": "ANDA",
+     "Otsu_ok": true,
+     "Adaptive": "ANDA",
+     "Adaptive_ok": true
+    }
+   },
+   {
+    "acuan": "4529643389000738",
+    "hasil": {
+     "Berwarna": "4529643389000738",
+     "Berwarna_ok": true,
+     "Otsu": "45296433809000738",
+     "Otsu_ok": false,
+     "Adaptive": "",
+     "Adaptive_ok": false
+    }
+   },
+   {
+    "acuan": "07-07-1997",
+    "hasil": {
+     "Berwarna": "07-07-1997",
+     "Berwarna_ok": true,
+     "Otsu": "07 07 1897",
+     "Otsu_ok": false,
+     "Adaptive": "o7 of 1997",
+     "Adaptive_ok": false
+    }
+   },
+   {
+    "acuan": "Kelurahan",
+    "hasil": {
+     "Berwarna": "Kelurahan",
+     "Berwarna_ok": true,
+     "Otsu": "Kelurahan",
+     "Otsu_ok": true,
+     "Adaptive": "pekerjaan",
+     "Adaptive_ok": false
+    }
+   },
+   {
+    "acuan": "Kecamatan",
+    "hasil": {
+     "Berwarna": "Kecamatan",
+     "Berwarna_ok": true,
+     "Otsu": "Kecamatan",
+     "Otsu_ok": true,
+     "Adaptive": "amat",
+     "Adaptive_ok": false
+    }
+   },
+   {
+    "acuan": "WNI",
+    "hasil": {
+     "Berwarna": "WNI",
+     "Berwarna_ok": true,
+     "Otsu": "WNI",
+     "Otsu_ok": true,
+     "Adaptive": "nik",
+     "Adaptive_ok": false
+    }
+   },
+   {
+    "acuan": "Seumur Hidup",
+    "hasil": {
+     "Berwarna": "Seumur Hidup",
+     "Berwarna_ok": true,
+     "Otsu": "Seumur Hidup",
+     "Otsu_ok": true,
+     "Adaptive": "hur hidup",
+     "Adaptive_ok": false
+    }
+   },
+   {
+    "acuan": "Perempuan",
+    "hasil": {
+     "Berwarna": "Perempuan",
+     "Berwarna_ok": true,
+     "Otsu": "perampuan",
+     "Otsu_ok": false,
+     "Adaptive": "perampuan",
+     "Adaptive_ok": false
+    }
+   }
+  ],
+  "ringkas": {
+   "Berwarna": {
+    "tepat": 10,
+    "persen": 100.0,
+    "conf": 85.11
+   },
+   "Otsu": {
+    "tepat": 7,
+    "persen": 70.0,
+    "conf": 81.92
+   },
+   "Adaptive": {
+    "tepat": 2,
+    "persen": 20.0,
+    "conf": 79.69
+   }
+  },
+  "otsu_T": 111,
+  "shape": [
+   400,
+   634,
+   3
+  ]
+ },
+ "ktp_jack.jpg": {
+  "nama": "Jack",
+  "rows": [
+   {
+    "acuan": "PROVINSI",
+    "hasil": {
+     "Berwarna": "PROVINSI",
+     "Berwarna_ok": true,
+     "Otsu": "PROVINSI",
+     "Otsu_ok": true,
+     "Adaptive": "PROVINSI",
+     "Adaptive_ok": true
+    }
+   },
+   {
+    "acuan": "JAKARTA",
+    "hasil": {
+     "Berwarna": "JAKARTA",
+     "Berwarna_ok": true,
+     "Otsu": "JAKARTA",
+     "Otsu_ok": true,
+     "Adaptive": "JAKARTA",
+     "Adaptive_ok": true
+    }
+   },
+   {
+    "acuan": "PUSAT",
+    "hasil": {
+     "Berwarna": "PUSAT",
+     "Berwarna_ok": true,
+     "Otsu": "PUSAT",
+     "Otsu_ok": true,
+     "Adaptive": "PUSAT",
+     "Adaptive_ok": true
+    }
+   },
+   {
+    "acuan": "JOKO",
+    "hasil": {
+     "Berwarna": "",
+     "Berwarna_ok": false,
+     "Otsu": "oki",
+     "Otsu_ok": false,
+     "Adaptive": "JOKO",
+     "Adaptive_ok": true
+    }
+   },
+   {
+    "acuan": "WIDODO",
+    "hasil": {
+     "Berwarna": "wio000",
+     "Berwarna_ok": false,
+     "Otsu": "",
+     "Otsu_ok": false,
+     "Adaptive": "WIDODO",
+     "Adaptive_ok": true
+    }
+   },
+   {
+    "acuan": "SURAKARTA",
+    "hasil": {
+     "Berwarna": "SURAKARTA",
+     "Berwarna_ok": true,
+     "Otsu": "SURAKARTA",
+     "Otsu_ok": true,
+     "Adaptive": "SURAKARTA",
+     "Adaptive_ok": true
+    }
+   },
+   {
+    "acuan": "3372052106610006",
+    "hasil": {
+     "Berwarna": "337205210bb1000b",
+     "Berwarna_ok": false,
+     "Otsu": "2052105510005",
+     "Otsu_ok": false,
+     "Adaptive": "337205210bb1000b",
+     "Adaptive_ok": false
+    }
+   },
+   {
+    "acuan": "MENTENG",
+    "hasil": {
+     "Berwarna": "MENTENG",
+     "Berwarna_ok": true,
+     "Otsu": "MENTENG",
+     "Otsu_ok": true,
+     "Adaptive": "MENTENG",
+     "Adaptive_ok": true
+    }
+   },
+   {
+    "acuan": "ISLAM",
+    "hasil": {
+     "Berwarna": "ISLAM",
+     "Berwarna_ok": true,
+     "Otsu": "ISLAM",
+     "Otsu_ok": true,
+     "Adaptive": "ISLAM",
+     "Adaptive_ok": true
+    }
+   },
+   {
+    "acuan": "WNI",
+    "hasil": {
+     "Berwarna": "nik",
+     "Berwarna_ok": false,
+     "Otsu": "nik",
+     "Otsu_ok": false,
+     "Adaptive": "WNI",
+     "Adaptive_ok": true
+    }
+   }
+  ],
+  "ringkas": {
+   "Berwarna": {
+    "tepat": 6,
+    "persen": 60.0,
+    "conf": 83.65
+   },
+   "Otsu": {
+    "tepat": 6,
+    "persen": 60.0,
+    "conf": 84.6
+   },
+   "Adaptive": {
+    "tepat": 9,
+    "persen": 90.0,
+    "conf": 80.48
+   }
+  },
+  "otsu_T": 120,
+  "shape": [
+   297,
+   459,
+   3
+  ]
+ }
+}

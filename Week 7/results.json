@@ -1,0 +1,608 @@
+{
+  "nama": "Adam Bahy Maulana",
+  "nim": "244107020207",
+  "no_absen": 2,
+  "N": 207,
+  "token": "2f59ccc879004dd5",
+  "waktu": "2026-10-11T08:21:33.656629+07:00",
+  "praktikum1": {
+    "thresh": 200,
+    "maxval": 255,
+    "gradient_shape": [
+      297,
+      459,
+      3
+    ],
+    "selisih_vs_cv_threshold": {
+      "BINARY": 0,
+      "BINARY_INV": 0,
+      "TRUNC": 0,
+      "TOZERO": 0,
+      "TOZERO_INV": 0
+    },
+    "proporsi_putih": {
+      "BINARY": 0.2074,
+      "BINARY_INV": 0.7926,
+      "TRUNC": 0.0,
+      "TOZERO": 0.0002,
+      "TOZERO_INV": 0.0
+    }
+  },
+  "praktikum2": {
+    "blok": 11,
+    "C": 2,
+    "sigma": 2.0,
+    "sudoku_shape": [
+      563,
+      558,
+      3
+    ],
+    "T_lokal_mean": [
+      11.504,
+      211.174
+    ],
+    "T_lokal_gauss": [
+      11.083,
+      211.646
+    ],
+    "proporsi_putih": {
+      "global127": 0.2597,
+      "mean_manual": 0.7997,
+      "gaussian_manual": 0.8274
+    },
+    "verifikasi_library": {
+      "mean": {
+        "beda_piksel": 4719,
+        "proporsi_beda": 0.015021295288298096,
+        "selisih_maks_T": 2.0
+      },
+      "gaussian": {
+        "beda_piksel": 2892,
+        "proporsi_beda": 0.00920567619702439,
+        "selisih_maks_T": null
+      }
+    },
+    "kernel_gauss_jumlah": 1.0
+  },
+  "praktikum3": {
+    "lena": {
+      "min": 32,
+      "max": 230,
+      "mean": 124.0715,
+      "p05": 49,
+      "p95": 202,
+      "putih_global127": 0.5026137638199006,
+      "putih_otsu": 0.5671867489184426,
+      "T_tertinggi_masih_terlihat": 229,
+      "T_rekomendasi": 126,
+      "putih_T_rekomendasi": 0.5116768146130428
+    },
+    "lena_otsu_manual": 119,
+    "lena_otsu_library": 118,
+    "lena_kriteria_antar_kelas": 1464.1275,
+    "ktp": {
+      "ktp_adam.jpg": {
+        "label": "KTP Adam",
+        "berkas": "ktp_adam.jpg",
+        "shape": [
+          1753,
+          2762,
+          3
+        ],
+        "min": 19,
+        "max": 255,
+        "mean": 175.8391,
+        "otsu_manual": 162,
+        "otsu_library": 161,
+        "kriteria_antar_kelas": 1500.9806,
+        "putih_global127": 0.8403,
+        "putih_otsu": 0.6669
+      },
+      "ktp_fulan.jpg": {
+        "label": "KTP Fulan",
+        "berkas": "ktp_fulan.jpg",
+        "shape": [
+          458,
+          694,
+          3
+        ],
+        "min": 0,
+        "max": 255,
+        "mean": 207.5128,
+        "otsu_manual": 151,
+        "otsu_library": 150,
+        "kriteria_antar_kelas": 2688.5122,
+        "putih_global127": 0.8794,
+        "putih_otsu": 0.8704
+      }
+    },
+    "ktp_urutan": [
+      "ktp_adam.jpg",
+      "ktp_fulan.jpg"
+    ]
+  },
+  "praktikum4": {
+    "coins_shape": [
+      303,
+      384
+    ],
+    "otsu_T": 108,
+    "seed": {
+      "Dalam koin": {
+        "koordinat": [
+          22,
+          88
+        ],
+        "intensitas": 117
+      },
+      "Latar": {
+        "koordinat": [
+          5,
+          5
+        ],
+        "intensitas": 133
+      },
+      "Tepi koin": {
+        "koordinat": [
+          67,
+          26
+        ],
+        "intensitas": 133
+      }
+    },
+    "piksel_region_growing": {
+      "Dalam koin": {
+        "5": 2943,
+        "20": 12791,
+        "60": 87789
+      },
+      "Latar": {
+        "5": 1906,
+        "20": 12278,
+        "60": 86041
+      },
+      "Tepi koin": {
+        "5": 1,
+        "20": 1,
+        "60": 84915
+      }
+    },
+    "piksel_flood": {
+      "Dalam koin": {
+        "5": 3218,
+        "20": 12128,
+        "60": 58062
+      },
+      "Latar": {
+        "5": 1131,
+        "20": 5613,
+        "60": 40231
+      },
+      "Tepi koin": {
+        "5": 1,
+        "20": 1,
+        "60": 40231
+      }
+    }
+  },
+  "praktikum5": {
+    "centroid_rgb": [
+      [
+        179,
+        99,
+        73
+      ],
+      [
+        35,
+        14,
+        15
+      ],
+      [
+        200,
+        189,
+        186
+      ]
+    ],
+    "inertia": 732474752.0,
+    "proporsi_cluster": [
+      0.3115,
+      0.318,
+      0.3705
+    ],
+    "centroid_ktp_rgb": [
+      [
+        211,
+        233,
+        244
+      ],
+      [
+        44,
+        45,
+        46
+      ],
+      [
+        182,
+        100,
+        90
+      ]
+    ],
+    "centroid_ktp_hsv": [
+      [
+        100,
+        34,
+        244
+      ],
+      [
+        105,
+        11,
+        46
+      ],
+      [
+        3,
+        129,
+        182
+      ]
+    ],
+    "proporsi_biru_hsv": 0.7464,
+    "proporsi_cluster_biru": 0.8613
+  },
+  "tugas_kelompok": {
+    "bahasa": "ind+eng",
+    "psm": "--psm 6",
+    "conf_min": 60,
+    "jumlah_ktp": 4,
+    "ringkasan": {
+      "Berwarna": {
+        "item_tepat": 33,
+        "item_total": 40,
+        "persen": 82.5,
+        "conf_rata2": 84.16,
+        "kata_berbox": 161
+      },
+      "Otsu": {
+        "item_tepat": 23,
+        "item_total": 40,
+        "persen": 57.5,
+        "conf_rata2": 82.14,
+        "kata_berbox": 181
+      },
+      "Adaptive": {
+        "item_tepat": 20,
+        "item_total": 40,
+        "persen": 50.0,
+        "conf_rata2": 80.06,
+        "kata_berbox": 119
+      }
+    },
+    "anggota": {
+      "ktp_adam.jpg": {
+        "nama": "Adam Bahy Maulana",
+        "shape": [
+          1753,
+          2762,
+          3
+        ],
+        "otsu_T": 161,
+        "acuan": [
+          "PROVINSI",
+          "JAWA",
+          "TIMUR",
+          "ADAM",
+          "BAHY",
+          "MAULANA",
+          "LAKI-LAKI",
+          "KEMIRAHAN",
+          "PURWODADI",
+          "BLIMBING"
+        ],
+        "varian": {
+          "Berwarna": {
+            "n_kata_conf": 16,
+            "cocok": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              false,
+              false
+            ],
+            "jumlah_cocok": 7,
+            "persen_cocok": 70.0,
+            "conf_rata2": 79.94
+          },
+          "Otsu": {
+            "n_kata_conf": 49,
+            "cocok": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ],
+            "jumlah_cocok": 0,
+            "persen_cocok": 0.0,
+            "conf_rata2": 75.12
+          },
+          "Adaptive": {
+            "n_kata_conf": 19,
+            "cocok": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ],
+            "jumlah_cocok": 0,
+            "persen_cocok": 0.0,
+            "conf_rata2": 76.53
+          }
+        },
+        "teks": {
+          "Berwarna": "— PROVINSI JAWA TIMUR\n\nNIK - 357?30l0bi-050001 Mg\n“Nama — — ADAM BAHY MAULANA e.g\n—Jenis kelamin — = LAKI-LAK! Gol Darah ——— ~\n—Alamat ————— — KEMIRAHANH E79 — _\n",
+          "Otsu": "- -'\nSSS SS\n——_———S=SSazz _—\n2: — —s = Se a\n— .——— av ie KEAI A—I —— ——\n___.—-g-----—.& sie . —— O. .——— —\nES = AY EERE TE ve S\n'————X/ 3 i ————..—— 7s — o_o)\nr — OD —— = an —— :\nM—_-F:?G=:=EE- _\na— —— \"'_-_——_=-'-=\nN pa ———— = S\na — —— —— —— —— — —— aE ——e EAE 3 —\n——— 1 me— —— — = ss = re ss —= ———— — s==ss= IIII ”'/\"';—-;_*C“T“_'Z“:l____…:_:'_'—-———x\n== 2S 222 5S agi OtH eer SSS\n—— SS S== = ——II = = = s | =\n= SSSSSSS=Q ME — SSS ==\n=. > ABARFE AIH a = ———SSS=S= g Te\n——— RA SAT Yh At HA ATS SSS SRE ES\nSS —————._.§_= — EAA — “E— aS\n—o MAA Ss ——— —-.c os =se.s a ———— \" Ce\nSSS = Ci 51 Darah - — E——— ES\n—_ a a ATES AEI -——— “II EEE ‘ <=\nSS a HA ————— ooo Se =\n——— Fame ay eo EN =\" : es\n—————— m’7t SS =F mwemas ore nr oe =\na —————— ——- = ee! - a —\nwe p3 r y aY s ————— I E SS 3 ES\nSAA HN ne TE SSS iE\n—X ee eee SSS EEA ARMA CICA Se / AS\nMAe na i i anette vere ee KOTAN TT S\n! =. . 7a a a — .Saw. vy . rbe ——\na na = ——— KOTAMALANG ————\nE aes ea kee =\nieee lies st Severers 4 ata, wees .. — %——(wj_— ee\nre Sean teary rg ae SSS Se . III\noman £e . war Ars fr —— ——— X\n— H KJI ee — a\n————— EEE ee SA AAA\n— = ES ————————— ee eee eee SONA AA N SEI I\ne— ENI : …X ——— SA A NG E\n— ——————I —II E WT N _ TT\n——I —II We eg SS\n. ee. — Soe LR SENS\n— ee, AAA SSS\nSE ne —— — Sy a ee\n3 rs ae eee ———I——— oe See FE SS nn ge SS\n= Loa oa oN ee ance RF TI RE: — Bf EE\ne TI 4 —— SSS SSS We TN EEI I De too E III —\n—— NII II E SA N I Ne I CR Te EE EE a\n—— moro ee Re eee ce oe\n",
+          "Adaptive": "- m_ —— 23 m m\n== PE A H3A Se EEI DEI ET NEI\n| 1 SSS SES ik =e E\n—-—-——'_…'x he wee pO ES\nSS EE = aes S n on —\n=e ipa Ege ea nl VERA NG D0— 6-234 aS . —\n= SS SS a D SS\n—————— Cre 3 = ——— EEE ; . ES\n—— Se — — —— | SS\n——— ————Kteainatan— E N BSG =: EEE | ‘ pane n —\n= —I SSS — ——— or | i . oes\nslats priawinan— BEER NERAVHIN SSS ce Nee S / Lee ESS\n= Sateqssa ____ =p EFRBOARH AAs Titan SESS\nVe Key aa A ARABS a ae AES\n£ , …nw-'eaa ==\nEz (eWarganegaraai— wi} AoA\n————— dese Ee or ete\n==Penake-Hingga: —=SEBMUR-AHID =!=\nSS —————————————— E n a n N\n'jf;w\nSSS et PAF EF =\n"
+        }
+      },
+      "ktp_fulan.jpg": {
+        "nama": "Fulan",
+        "shape": [
+          458,
+          694,
+          3
+        ],
+        "otsu_T": 150,
+        "acuan": [
+          "PROVINSI",
+          "JAKARTA",
+          "TIMUR",
+          "BILLY",
+          "BUMBLEBEE",
+          "SIFULAN",
+          "SURABAYA",
+          "3175070101909999",
+          "LAKI-LAKI",
+          "ANTAH BERANTAH"
+        ],
+        "varian": {
+          "Berwarna": {
+            "n_kata_conf": 65,
+            "cocok": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "jumlah_cocok": 10,
+            "persen_cocok": 100.0,
+            "conf_rata2": 87.94
+          },
+          "Otsu": {
+            "n_kata_conf": 62,
+            "cocok": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "jumlah_cocok": 10,
+            "persen_cocok": 100.0,
+            "conf_rata2": 86.92
+          },
+          "Adaptive": {
+            "n_kata_conf": 61,
+            "cocok": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true
+            ],
+            "jumlah_cocok": 9,
+            "persen_cocok": 90.0,
+            "conf_rata2": 83.52
+          }
+        },
+        "teks": {
+          "Berwarna": "PROVINSI DKI JAKARTA\nJAKARTA TIMUR\n\nNIK : 3175070101909999\nNama : BILLY BUMBLEBEE SIFULAN\nTempat/Tgl Lahir : SURABAYA, 01-01-1990\nJenis Kelamin — : LAKI-LAKI Gol. Darah : AB\nAlamat : JL DIMANA NO 100\n\nRTIRW : 001/001\n\nKellDesa —— : ANTAH BERANTAH N /\n\nKecamatan — : DUREN SAWIT -\nAgama : ISLAM\nStatus Perkawinan : KAWIN\nPekerjaan : KARYAWAN SWASTA\nKewarganegaraan : WNI presto Tees\nBerlaku Hingga — : SEUMUR HIDUP 01-01-2020\n",
+          "Otsu": "PROVINSI DKI JAKARTA\nJAKARTA TIMUR\n\nNIK : 3175070101909999\nNama : BILLY BUMBLEBEE SIFULAN\nTempat/Tgl Lahir : SURABAYA, 01-01-1990\ndenis Kelamin — : LAKI-LAKI Gol, Darah : AB\nAlamat : JL DIMANA NO 100\n\nRTRW : 001/001\n\nKelbesa —— : ANTAH BERANTAH\n\nKecamatan — : DUREN SAWIT\nAgama : ISLAM\nStatus Perkawinan : KAWIN\nPekerjaan : KARYAWAN SWASTA\nKewarganegaraan : WNI JAKARTA TIMUR\nBerlaku Hingga — : SEUMUR HIDUP 01-01-2020\n",
+          "Adaptive": "LO I — ——————\ni PROVINSI DKI JAKARTA n\nE .. JAKARTA TIMUR :\nNIK : 3175070103999999 3\n\"Nama =~: BILLY BUMBLEBEE SIFULAN 5\nE= TompatTol Lahir : SURABAYA, 01-01-1990 -\n= Jenis Kelamin > LAKI-LAKI Gol. Darah : AB a\n\n— Alamat ? JL DIMANA NO 100 a\nEis. RTRW : 001/001 5\nE;-:/Kellnan : ANTAH BERANTAH 3\n\n-— . Kecamatan =: DUREN SAWIT . 2S\n= Agama — S ISLAM |: Slits \\ J | 3\nE- Status Perkawinan: KAWIN “<> 2 —r ed ESS at\n— Pekerjaan — —.-: KARYAWAN SWASTA -— —I EY\nEZ Kewarganegaraan # WNI — <> —~ 2, JAKARIA TIMUR 803\n— Berlaku Hingga - : SEUMUR HIDUP = 2c . O1012020 Se 3\n\nWORE ar ES ee ENIH AY\n"
+        }
+      },
+      "ktp_fulani.jpg": {
+        "nama": "Fulani",
+        "shape": [
+          400,
+          634,
+          3
+        ],
+        "otsu_T": 111,
+        "acuan": [
+          "PROVINSI",
+          "TEMPAT",
+          "ANDA",
+          "4529643389000738",
+          "07-07-1997",
+          "Kelurahan",
+          "Kecamatan",
+          "WNI",
+          "Seumur Hidup",
+          "Perempuan"
+        ],
+        "varian": {
+          "Berwarna": {
+            "n_kata_conf": 57,
+            "cocok": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "jumlah_cocok": 10,
+            "persen_cocok": 100.0,
+            "conf_rata2": 85.11
+          },
+          "Otsu": {
+            "n_kata_conf": 60,
+            "cocok": [
+              true,
+              true,
+              true,
+              false,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false
+            ],
+            "jumlah_cocok": 7,
+            "persen_cocok": 70.0,
+            "conf_rata2": 81.92
+          },
+          "Adaptive": {
+            "n_kata_conf": 16,
+            "cocok": [
+              false,
+              true,
+              true,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ],
+            "jumlah_cocok": 2,
+            "persen_cocok": 20.0,
+            "conf_rata2": 79.69
+          }
+        },
+        "teks": {
+          "Berwarna": "PROVINSI TEMPAT ANDA\nKOTA ANDA\n\nNIK : 4529643389000738\nNama : Nama Asli Anda\nTempat/Tgl Lahir | Kota Lahir / 07 - 07 - 1997\nJenis kelamin : “LakiLaki / Perempuan\nAlamat : Alamat Lengkap\n\nRT/RW. : 01/09\n\nKel/Desa —— : Kelurahan Anda\n\nKecamatan : Kecamatan Anda\nAgama : Agama\nStatus Perkawinan : Kawin / Belum Kawin KOTA ANDA\nPekerjaan : . Pekerjaan Anda wll es\nKewarganegaraan : WNI\nBerlaku Hingga — : Seumur Hidup. Jam\n",
+          "Otsu": "PROVINSI TEMPAT ANDA\nKOTAANDA\n\nNIK : 45296433809000738\nNama : Nama Asti Anda\nTempat/Tgi Lahir : Kota Lahir / 07 - 07 - 1897\nJenis kelamin : Laki Laki / Perampuan\nAlamat : Alamat Lengkap\n\nRT/RW : 01/03\n\nKelDesa = : Kelurahan Anda\n\nKecamatan : Kecamatan Anda :\nAgama : Agama\nStatus Perkawinan : Kawin / Belum Kawin KOTA ANDA\nPekerjaan : Pekerjaan Anda 07-377\nKewarganegarasn : WNI\nBarlaku Hingga — : Seumur Hidup GQ\n",
+          "Adaptive": "NIK ce kspane KOTAANDA gos da eS\n°Tempat/Ygl Lahr Nama Asti Anda ae Se an FS\ndais lan eh Pekan Lad? O7- oF 1997 i S\namat Sete EE Al ki / Perampuan 5e na\n($37, BIMWG na 3 Aamat Lengkep aE Sy oe\nCSS cick Stemmrgeety io o.) X\nSsmmepmvj”:mo C Agama Pe cae eee RF Di\n“Pekerjaan )” <I Kewin / Bolum Kawin G5 . <\nC Kewerganegaraan G&—mfgmmdu - > ae KOTAANDA <<\nS Bariaku nage 5? Seu ees POUL\nee on S hur Hidup,$ ND AE GS\nSOF eS gle ARS AS Fas a\nSE AE Rae,\nie ee oNewen\n"
+        }
+      },
+      "ktp_jack.jpg": {
+        "nama": "Jack",
+        "shape": [
+          297,
+          459,
+          3
+        ],
+        "otsu_T": 120,
+        "acuan": [
+          "PROVINSI",
+          "JAKARTA",
+          "PUSAT",
+          "JOKO",
+          "WIDODO",
+          "SURAKARTA",
+          "3372052106610006",
+          "MENTENG",
+          "ISLAM",
+          "WNI"
+        ],
+        "varian": {
+          "Berwarna": {
+            "n_kata_conf": 23,
+            "cocok": [
+              true,
+              true,
+              true,
+              false,
+              false,
+              true,
+              false,
+              true,
+              true,
+              false
+            ],
+            "jumlah_cocok": 6,
+            "persen_cocok": 60.0,
+            "conf_rata2": 83.65
+          },
+          "Otsu": {
+            "n_kata_conf": 10,
+            "cocok": [
+              true,
+              true,
+              true,
+              false,
+              false,
+              true,
+              false,
+              true,
+              true,
+              false
+            ],
+            "jumlah_cocok": 6,
+            "persen_cocok": 60.0,
+            "conf_rata2": 84.6
+          },
+          "Adaptive": {
+            "n_kata_conf": 23,
+            "cocok": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true
+            ],
+            "jumlah_cocok": 9,
+            "persen_cocok": 90.0,
+            "conf_rata2": 80.48
+          }
+        },
+        "teks": {
+          "Berwarna": "PROVINSI DKI JAKARTA\nJAKARTA PUSAT\nNIK : 337205210bb1000b\nsana 12 s0x0 wio000\nTempat/Tgi Lahir = SURAKARTA, 21-06-1961\nJenis Kelamin — :LAKELAKI Gol. Darah : A pn a\nAt saa SUROPAN NG 7 >\nKecamatan “ MENTENG\n\nAgama ISLAM\nPokerjaan a a IR TAKARTA PUSA\n\nison \"28-10-2012,\nKewarganegaraan:\n",
+          "Otsu": "PROVINSI OKI JAKARTA\n! JAKARTA PUSAT\n{ NIK : 33?2052105510005\nwore I soo mo0p0\n2 TemmpalTal Late > SURAKARTA, 21-06-1961\nowe Coun GI at ah A\nit 3 TAMAN SUROPAR WOT\nAimw “our oct\nefooee — iMENTENG\nKomment MENTE\nAgama ISLAM\nSis Petra na ‘i\nani eR 28-10-2072,\nKewerganegaraan:\nOoraka egos AGe a? QZXMM\n",
+          "Adaptive": "PROVINSI DKI JAKARTA .\nJAKARTA PUSAT .\nNIK : 337205210bb1000b\nNoma 31, JOKO WIDODO\nTempel Tot Lahe SURAKARTA, 21-08-1081\ndenie Keamin LARILAK Gal Ouran: A\nema HL TAMAN GUROPATI NG. 7\nRURW . 0/ 008\nKelOese — :MENTENG\nKecamaian :MENTENG\n| Agama ISLAM |\nSlatus Porkawinan:KAWIN '\neee Pesci\nKwwargenegarean: WNI ae ole |\nBerleku Hiegga — 321082017 - k n..…-./< |\n"
+        }
+      }
+    }
+  }
+}
