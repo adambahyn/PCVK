@@ -1,0 +1,719 @@
+{
+ "nama": "Adam Bahy Maulana",
+ "nim": "244107020207",
+ "N": 207,
+ "lingkungan": {
+  "python": "3.11.16",
+  "opencv": "5.0.0",
+  "numpy": "2.4.6",
+  "skimage": "0.26.0",
+  "tesseract": "5.4.0.20240606"
+ },
+ "waktu": "2026-10-24T17:45:56+07:00",
+ "citra": {
+  "plat": {
+   "berkas": "sudoku-original.jpg",
+   "shape": [
+    423,
+    419
+   ],
+   "ambang_otsu": 181,
+   "proporsi_objek": 0.1116,
+   "proporsi_objek_tanpa_perataan": 0.4053
+  }
+ },
+ "dilasi": {
+  "langkah3": {
+   "se": "square 5x5 (np.ones)",
+   "waktu_manual_ms": 1317.2,
+   "objek_awal": 19784,
+   "objek_hasil": 54167,
+   "pertambahan_persen": 173.79
+  },
+  "langkah4": {
+   "se": "square 3x3",
+   "waktu_library_ms": 0.28,
+   "percepatan_kali": 4779.5,
+   "beda_interior_piksel": 0,
+   "beda_total_piksel": 180,
+   "objek_hasil": 38047
+  },
+  "langkah9": {
+   "cross3": {
+    "objek": 34453,
+    "pertambahan_persen": 74.15,
+    "beda_interior_vs_cv2": 0,
+    "beda_kode_modul_piksel": 0
+   },
+   "cross5": {
+    "objek": 47140,
+    "pertambahan_persen": 138.27,
+    "beda_interior_vs_cv2": 0,
+    "beda_kode_modul_piksel": 0
+   }
+  },
+  "langkah10": {
+   "circ3": {
+    "kernel": [
+     [
+      0,
+      1,
+      0
+     ],
+     [
+      1,
+      1,
+      1
+     ],
+     [
+      0,
+      1,
+      0
+     ]
+    ],
+    "objek": 34453,
+    "pertambahan_persen": 74.15,
+    "beda_interior_vs_cv2": 0,
+    "beda_kode_modul_piksel": 0
+   },
+   "circ5": {
+    "kernel": [
+     [
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     [
+      0,
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "objek": 50500,
+    "pertambahan_persen": 155.26,
+    "beda_interior_vs_cv2": 0,
+    "beda_kode_modul_piksel": 0
+   }
+  },
+  "perbandingan_se": [
+   {
+    "ukuran": 3,
+    "bentuk": "square",
+    "jumlah_piksel_kernel": 9,
+    "objek_hasil": 37867,
+    "pertambahan_persen": 91.4
+   },
+   {
+    "ukuran": 3,
+    "bentuk": "cross",
+    "jumlah_piksel_kernel": 5,
+    "objek_hasil": 34453,
+    "pertambahan_persen": 74.15
+   },
+   {
+    "ukuran": 3,
+    "bentuk": "circular",
+    "jumlah_piksel_kernel": 5,
+    "objek_hasil": 34453,
+    "pertambahan_persen": 74.15
+   },
+   {
+    "ukuran": 5,
+    "bentuk": "square",
+    "jumlah_piksel_kernel": 25,
+    "objek_hasil": 54167,
+    "pertambahan_persen": 173.79
+   },
+   {
+    "ukuran": 5,
+    "bentuk": "cross",
+    "jumlah_piksel_kernel": 9,
+    "objek_hasil": 47140,
+    "pertambahan_persen": 138.27
+   },
+   {
+    "ukuran": 5,
+    "bentuk": "circular",
+    "jumlah_piksel_kernel": 17,
+    "objek_hasil": 50500,
+    "pertambahan_persen": 155.26
+   }
+  ]
+ },
+ "erosi": {
+  "langkah5": {
+   "se": "square 5x5",
+   "waktu_manual_ms": 2107.9,
+   "objek_awal": 19784,
+   "objek_hasil": 1246,
+   "penyusutan_persen": 93.7
+  },
+  "langkah6": {
+   "se": "square 5x5",
+   "waktu_library_ms": 0.27,
+   "percepatan_kali": 7679.0,
+   "beda_interior_piksel": 0,
+   "beda_total_piksel": 81,
+   "objek_hasil": 1327
+  },
+  "langkah11": {
+   "rect3x5": {
+    "objek": 3107,
+    "penyusutan_persen": 84.3,
+    "beda_interior_vs_cv2": 0,
+    "beda_kode_modul_piksel": "ValueError: operands could not be broadcast together with shapes (5,5) (3,5) "
+   },
+   "rect5x7": {
+    "objek": 1133,
+    "penyusutan_persen": 94.27,
+    "beda_interior_vs_cv2": 0,
+    "beda_kode_modul_piksel": "ValueError: operands could not be broadcast together with shapes (7,7) (5,7) "
+   }
+  },
+  "langkah12": {
+   "berkas": "j.png",
+   "shape": [
+    150,
+    112
+   ],
+   "objek_awal": 2576,
+   "line3": {
+    "objek": 2175,
+    "sisa_persen": 84.43,
+    "beda_interior_vs_cv2": 0,
+    "beda_kode_modul_piksel": 384
+   },
+   "line5": {
+    "objek": 1775,
+    "sisa_persen": 68.91,
+    "beda_interior_vs_cv2": 0,
+    "beda_kode_modul_piksel": 760
+   }
+  }
+ },
+ "gabungan": {
+  "langkah7": {
+   "se": "square 3x3",
+   "objek_awal": 19784,
+   "objek_manual": 14235,
+   "objek_library": 14304,
+   "selisih_persen_vs_awal": -27.7,
+   "beda_interior_manual_vs_library": 0,
+   "beda_tepi_manual_vs_library": 69,
+   "idempoten_beda_piksel": 0,
+   "waktu_manual_ms": 3043.7,
+   "waktu_library_ms": 0.24
+  },
+  "langkah8": {
+   "se": "square 3x3",
+   "objek_awal": 19784,
+   "objek_manual": 21274,
+   "objek_library": 21511,
+   "selisih_persen_vs_awal": 8.73,
+   "beda_interior_manual_vs_library": 0,
+   "beda_tepi_manual_vs_library": 237,
+   "idempoten_beda_piksel": 0,
+   "opening_subset_citra": true,
+   "citra_subset_closing": true,
+   "waktu_manual_ms": 2463.9,
+   "waktu_library_ms": 0.4
+  }
+ },
+ "lanjut": {
+  "langkah13": {
+   "kernel": "rect 3x3",
+   "rata_awal": 101.85,
+   "rata_tophat": 1.73,
+   "piksel_terang_baru": 880,
+   "beda_definisi_piksel": 0
+  },
+  "langkah14": {
+   "kernel": "rect 13x5",
+   "shape": [
+    627,
+    670
+   ],
+   "rata_awal": 98.07,
+   "rata_blackhat": 8.73,
+   "piksel_gelap_baru": 28925,
+   "beda_definisi_piksel": 0
+  },
+  "langkah15": {
+   "berkas": "lily.jpg",
+   "shape": [
+    599,
+    623
+   ],
+   "ambang_triangle": 253.0,
+   "objek_biner": 212716,
+   "piksel_skeleton": 15477,
+   "kompresi_persen": 92.72,
+   "komponen_skeleton": 164,
+   "komponen_biner": 164
+  },
+  "langkah16": {
+   "objek_biner_inverse": 158865,
+   "piksel_skeleton_inverse": 18916,
+   "kompresi_persen": 88.09
+  },
+  "langkah17": {
+   "objek_biner": 24736,
+   "piksel_skeletonize": 8998,
+   "piksel_thin": 8929,
+   "selisih_piksel": 69,
+   "identik": false,
+   "komponen_thin": 918
+  }
+ },
+ "ktp": {
+  "ktp_adam.jpg": {
+   "shape": [
+    1753,
+    2762
+   ],
+   "varian": {
+    "A_grayscale": {
+     "conf": 29.83,
+     "kata": 454,
+     "kata_acuan_ditemukan": 0,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.0,
+     "cuplikan": "V__ V mme F'—___-—_-x—_/= . -::::-:_::_u_:;::.::__:: J $ EE — na — V A m S Y SI D — 50o m — Da u S lMAS a B E a na 2 AA 1 A N P AAA AS ' _ ---==—-;Y:-",
+     "waktu_ms": 13322.2
+    },
+    "B_otsu": {
+     "conf": 33.08,
+     "kata": 470,
+     "kata_acuan_ditemukan": 0,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.0,
+     "cuplikan": "V__ V —— F'—___-—_-x—_/= . -::::-:_::_u_:;::.::__:: - .— —— — pa 5a an G OMy - “ Ou u 3 , . E n m n 2 1 1 E P AA E ' _ ---==—-;Y:-—---_':__ — . San u ",
+     "waktu_ms": 11474.6
+    },
+    "C_otsu_morfologi": {
+     "conf": 37.18,
+     "kata": 590,
+     "kata_acuan_ditemukan": 0,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.0,
+     "cuplikan": "'———_——_Nd_ V - . — -.. GEP\" — pe Da— u . a 5 u w — —. Ov . a .—. —— … !::.'.1:.1——=:-=7.:=._=:,:.:=:= … EK KEA AMA S . em —— — a——— a— S) I — EB lu a",
+     "waktu_ms": 11191.5
+    },
+    "D_tophat_otsu": {
+     "conf": 33.71,
+     "kata": 175,
+     "kata_acuan_ditemukan": 0,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.0,
+     "cuplikan": "5 OIHIH …eiw—m MGE —_W_. —_- E ES KOTFAMAEANG KE — SE DE n E Ak —-_t————x____- K - II | :—:* .-=...-- MABEAND . . — an an an a na i a S — I VA BAN G O",
+     "waktu_ms": 3816.3
+    },
+    "E_tophat_otsu_morfologi": {
+     "conf": 43.48,
+     "kata": 131,
+     "kata_acuan_ditemukan": 0,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.0,
+     "cuplikan": "— NG SE - x____v'_———-':'::”_:._ —— g_..___ ;; —— _____—___x ——-——-_—xx————'—/-x___“_—_._= — E S — —————'—_—x_—_x_“ ——A 5'3-*\"\"”,'- —— 818 n — —— Si E",
+     "waktu_ms": 3903.2
+    },
+    "F_adaptive_morfologi": {
+     "conf": 31.42,
+     "kata": 85,
+     "kata_acuan_ditemukan": 1,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.1,
+     "cuplikan": "NIK — : ——— .. . —Tempal/Tgi Lahir —— MALANG 0621220005 —————— ———— | kelamin E LAKETAK EEE Gol Dara aa | | E — — PURWODADI — . EN AS — Kecamala n BOM",
+     "waktu_ms": 2155.4
+    },
+    "G_kanal_biru_morfologi": {
+     "conf": 62.17,
+     "kata": 48,
+     "kata_acuan_ditemukan": 5,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.5,
+     "cuplikan": "PROVINSI JAWA TIMUR _ KOTA MALANG _ NIK : _ Nama ..— -ADAMBAHY MAULANA . -— : MALANG, 06-12-2005 ;-_ ' — Aamat . : J KEMIRAHAN F /9 1 — “Siatus Perkaw",
+     "waktu_ms": 1824.7
+    }
+   },
+   "terbaik": "G_kanal_biru_morfologi",
+   "delta_conf": 32.34,
+   "delta_acuan": 0.5
+  },
+  "ktp_fulan.jpg": {
+   "shape": [
+    458,
+    694
+   ],
+   "varian": {
+    "A_grayscale": {
+     "conf": 86.58,
+     "kata": 66,
+     "kata_acuan_ditemukan": 8,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.8,
+     "cuplikan": "PROVINSI DKI JAKARTA JAKARTA TIMUR NIK : 3175070101909993 Nama : BILLY BUMBLEBEE SIFULAN Tempat/Tgl Lahir : SURABAYA, 01-01-1990 Jenis Kelamin : LAKI-",
+     "waktu_ms": 727.8
+    },
+    "B_otsu": {
+     "conf": 85.67,
+     "kata": 66,
+     "kata_acuan_ditemukan": 9,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.9,
+     "cuplikan": "PROVINSI DKI JAKARTA JAKARTA TIMUR NIK : 3175070101909999 Nama : BILLY BUMBLEBEE SIFULAN TempatiTgi Lahir : SURABAYA, 01-01-1990 Jenis Kelamin : LAKI-",
+     "waktu_ms": 663.4
+    },
+    "C_otsu_morfologi": {
+     "conf": 85.66,
+     "kata": 64,
+     "kata_acuan_ditemukan": 8,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.8,
+     "cuplikan": "PROVINSI DKI JAKARTA JAKARTA TIMUR NIK : Nama : BILLY BUMBLEBEE SIFULAN TempatTgi Lahir : SURABAYA, 01-01-19890 Jenis Kelamin : LAKI-LAKI Gol. Darah :",
+     "waktu_ms": 652.5
+    },
+    "D_tophat_otsu": {
+     "conf": 52.27,
+     "kata": 52,
+     "kata_acuan_ditemukan": 5,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.5,
+     "cuplikan": "AKARTIA LUMUH .'IIS -E U7ULULA09455 n BILLY BUMBLEBEE SIFULAN empat 1gl Lany SURABAYA 01-01:9990 Benis amu LAKI-LAKI Kol AH JL DIMANANG 109 a RTRW 001",
+     "waktu_ms": 698.1
+    },
+    "E_tophat_otsu_morfologi": {
+     "conf": 51.73,
+     "kata": 44,
+     "kata_acuan_ditemukan": 4,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.4,
+     "cuplikan": "AKARIA MUH .'\":l -b . BILLY BUMBLEBEE SIFULAN empat 1gl Lanj SURABAYA 01-01-4990 Penis amig LAKI-LAK Kiol DAran AH JL DIMANANG a V 001/00 L: a ANTAH B",
+     "waktu_ms": 623.2
+    },
+    "F_adaptive_morfologi": {
+     "conf": 81.12,
+     "kata": 73,
+     "kata_acuan_ditemukan": 9,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.9,
+     "cuplikan": "PROVINSI DKI JAKARTA JAKARTA TIMUR NIK : 3175070101909999 Nama : BILLY BUMBLEBEE SIFULAN TempatTgi Lahir : SURABAYA, 01-01-1990 Jenis Kelamin : LAKI-L",
+     "waktu_ms": 735.3
+    },
+    "G_kanal_biru_morfologi": {
+     "conf": 85.32,
+     "kata": 65,
+     "kata_acuan_ditemukan": 9,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.9,
+     "cuplikan": "PROVINSI DKI JAKARTA JAKARTA TIMUR NIK : 3175070101909999 Nama : BILLY BUMBLEBEE SIFULAN TempatTgi Lahir : SURABAYA, 01-01-1990 Jenis Kelamin : LAKI-L",
+     "waktu_ms": 657.9
+    }
+   },
+   "terbaik": "B_otsu",
+   "delta_conf": -0.91,
+   "delta_acuan": 0.1
+  },
+  "ktp_fulani.jpg": {
+   "shape": [
+    400,
+    634
+   ],
+   "varian": {
+    "A_grayscale": {
+     "conf": 75.56,
+     "kata": 77,
+     "kata_acuan_ditemukan": 9,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.9,
+     "cuplikan": "PROVINSI TEMPAT ANDA KOTA ANDA NIK : 4529643389000738 Nama : Nama Asli Anda Tempat/Tgi Lahir : KotaLahir/ 07 - 07 - 1997 Jenis kelamin :. Laki Laki / ",
+     "waktu_ms": 711.5
+    },
+    "B_otsu": {
+     "conf": 83.36,
+     "kata": 70,
+     "kata_acuan_ditemukan": 9,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.9,
+     "cuplikan": "PROVINSI TEMPAT ANDA KOTA ANDA NIK : 4529643389000738 Nama : Nama Asii Anda Tempat/Tgi Lahir : KotaLahir/ 07 - 07 - 1997 Jenis kelamin : LakiLaki/ Per",
+     "waktu_ms": 688.5
+    },
+    "C_otsu_morfologi": {
+     "conf": 78.38,
+     "kata": 60,
+     "kata_acuan_ditemukan": 7,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.7,
+     "cuplikan": "PROVINSI TEMPAT ANDA KOTA ANDA NIK : 4529643389000738 Nama : Nama Asii Anda Tempet/TgiLahir : KotaLahir/07 - 07 - 1997 Jenis kelamin : Laid Laid / Per",
+     "waktu_ms": 735.6
+    },
+    "D_tophat_otsu": {
+     "conf": 59.4,
+     "kata": 83,
+     "kata_acuan_ditemukan": 1,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.1,
+     "cuplikan": "r7_7* lo pb NAA PH ')'HW;“LTA 1 ( | i KOTAANDA l i MA AAe :llil:l:llll*llt- : / '.:X Asli ANG3 ] ,, / empat/1g! Lany ota Lahir / 07.1.0 99 / Bonis kel",
+     "waktu_ms": 857.8
+    },
+    "E_tophat_otsu_morfologi": {
+     "conf": 56.15,
+     "kata": 60,
+     "kata_acuan_ditemukan": 1,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.1,
+     "cuplikan": ". - |W;“|'7; i KOTAANDA 1 NIK “ , — ! NgITIB Asil AMG . empat/Tg9l Lahir / 07.c,0 aeI a Bonis Kelamin : ak! Laki / Perai ._lg';l.' , iill:l- aa i .'-.",
+     "waktu_ms": 772.5
+    },
+    "F_adaptive_morfologi": {
+     "conf": 72.6,
+     "kata": 101,
+     "kata_acuan_ditemukan": 9,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.9,
+     "cuplikan": "PROVINSI TEMPAT ANDA » KOTA ANDA ! W NIK : 4529643389000738 “ a M Nama : Nama Asli Anda / 1 Tempat/Tgi Lahir : KotaLahir/ 07 - 07 - 1997 A $ 1 Jenis k",
+     "waktu_ms": 754.2
+    },
+    "G_kanal_biru_morfologi": {
+     "conf": 72.37,
+     "kata": 71,
+     "kata_acuan_ditemukan": 9,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.9,
+     "cuplikan": "PROVINSI TEMPAT ANDA KOTA ANDA NIK : 4529643389000738 Namea : Nama Asi Anda Tempeat/Tgi Lahir : KotaLahir / 07 - 07 - 19897 Jenis kelamin 1 Laiki Laki",
+     "waktu_ms": 652.1
+    }
+   },
+   "terbaik": "B_otsu",
+   "delta_conf": 7.8,
+   "delta_acuan": 0.0
+  },
+  "ktp_jack.jpg": {
+   "shape": [
+    297,
+    459
+   ],
+   "varian": {
+    "A_grayscale": {
+     "conf": 71.08,
+     "kata": 63,
+     "kata_acuan_ditemukan": 7,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.7,
+     "cuplikan": "PROVINSI DKI JAKARTA | JAKARTA PUSAT i NIK — : 337205210b51000b Nama :IR. JOKO WIDODO —— TempatiTgiLahir :SURAKARTA, 21-06-1961 Jenis Kelamin :LAKI-LA",
+     "waktu_ms": 673.4
+    },
+    "B_otsu": {
+     "conf": 63.73,
+     "kata": 62,
+     "kata_acuan_ditemukan": 4,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.4,
+     "cuplikan": "PROVINSI DKI JAKARTA ! JAKARTA PUSAT i NIK — : 332205210bb1000b Nama IR. JDKO WIDODO 1 TempatTgi Lahir :SURAKARTA, 21-06-1961 Jenis Kelamin Gol. Derah",
+     "waktu_ms": 644.9
+    },
+    "C_otsu_morfologi": {
+     "conf": 50.17,
+     "kata": 30,
+     "kata_acuan_ditemukan": 4,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.4,
+     "cuplikan": "PROVINSI DKI JAKARTA JAKARTA PUSAT : 337205210bb1000b Tempai/Tgi Lahi . BURAKARTA, 21-09-r901 Kuluwin Gel Demh.A iJl TAMAN SUNOPATI MO. 7 :008 / O08 :",
+     "waktu_ms": 499.8
+    },
+    "D_tophat_otsu": {
+     "conf": 51.69,
+     "kata": 42,
+     "kata_acuan_ditemukan": 3,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.3,
+     "cuplikan": "PKI JAKARTA AKARTA PUSA .'Ilf' M3 ? la PIR JOKO WIDODO, empat/Tgl 190 Jl TAMAN NO 2 1I 005 / 005 AJ r eVDesa MENTENG . . MUNTON ISLA A Stalus KAWI AAG",
+     "waktu_ms": 681.0
+    },
+    "E_tophat_otsu_morfologi": {
+     "conf": 47.97,
+     "kata": 38,
+     "kata_acuan_ditemukan": 0,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.0,
+     "cuplikan": "TARANTA AKARTA PUSA I.'III' B 3 ? D P , sl O WI DODO h / 003 A Dof Be N TT NGI . . J Ml 1S . 5 .KAI \"__.A n % - .g.,,l Pa l",
+     "waktu_ms": 603.5
+    },
+    "F_adaptive_morfologi": {
+     "conf": 61.94,
+     "kata": 81,
+     "kata_acuan_ditemukan": 7,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.7,
+     "cuplikan": "PROVINSI DKI JAKARTA : JAKARTA PUSAT - NIK : 337205210651000b i Nama “IR JOKO WIDODO Pa m Tempat/Tgi Lahir .SURAKARTA, 21-06-1961 i .. Jenm Kelammn TL",
+     "waktu_ms": 778.3
+    },
+    "G_kanal_biru_morfologi": {
+     "conf": 53.81,
+     "kata": 43,
+     "kata_acuan_ditemukan": 6,
+     "kata_acuan_total": 10,
+     "proporsi_acuan": 0.6,
+     "cuplikan": "PROVINSI DKI JAKARTA JAKARTA PUSAT NIK : W JOKO WIDODO . Lahir .BURAKARTA, Janin Kelamin Gel A Alamat iJ TAMAN SUNOPATI ND. 7 608 / O08 KelDesa : MENT",
+     "waktu_ms": 648.0
+    }
+   },
+   "terbaik": "F_adaptive_morfologi",
+   "delta_conf": -9.14,
+   "delta_acuan": 0.0
+  }
+ },
+ "ktp_kanal": {
+  "ktp_adam.jpg": {
+   "B": {
+    "conf": 62.17,
+    "kata": 48,
+    "kata_acuan_ditemukan": 5,
+    "kata_acuan_total": 10,
+    "proporsi_acuan": 0.5,
+    "cuplikan": "PROVINSI JAWA TIMUR _ KOTA MALANG _ NIK : _ Nama ..— -ADAMBAHY MAULANA . -— : MALANG, 06-12-2005 ;-_ ' — Aamat . : J KEMIRAHAN F /9 1 — “Siatus Perkaw"
+   },
+   "G": {
+    "conf": 63.78,
+    "kata": 37,
+    "kata_acuan_ditemukan": 2,
+    "kata_acuan_total": 10,
+    "proporsi_acuan": 0.2,
+    "cuplikan": "— MAULANA . — — TemparigiLahir : MALANG, 06-12-2005 —Jeniskelamin . . LAKI-LAKI Gol. Darah :- —— | ——Siatus Perkawinan: BELUM KAWIN i M —Pekerjaan — ."
+   },
+   "R": {
+    "conf": 34.49,
+    "kata": 200,
+    "kata_acuan_ditemukan": 0,
+    "kata_acuan_total": 10,
+    "proporsi_acuan": 0.0,
+    "cuplikan": "m a A paa aa aEE—e aa aa ,—_—__—_x—__/- \"=__— a——— __M&i:aa:s;s:_ Ee EG n n E BBI —————— — Z NQ:_:___ KEA BEI DA a aae EEE EEE— E AE E — a :--:-'v-'-'"
+   }
+  },
+  "ktp_fulan.jpg": {
+   "B": {
+    "conf": 85.32,
+    "kata": 65,
+    "kata_acuan_ditemukan": 9,
+    "kata_acuan_total": 10,
+    "proporsi_acuan": 0.9,
+    "cuplikan": "PROVINSI DKI JAKARTA JAKARTA TIMUR NIK : 3175070101909999 Nama : BILLY BUMBLEBEE SIFULAN TempatTgi Lahir : SURABAYA, 01-01-1990 Jenis Kelamin : LAKI-L"
+   },
+   "G": {
+    "conf": 85.61,
+    "kata": 64,
+    "kata_acuan_ditemukan": 9,
+    "kata_acuan_total": 10,
+    "proporsi_acuan": 0.9,
+    "cuplikan": "PROVINSI DKI JAKARTA JAKARTA TIMUR NIK : 3175070101909999 Nama : BILLY BUMBLEBEE SIFULAN TempatiTgi Lahir : SURABAYA, 01-01-1990 Jenis Kelamin : LAKI-"
+   },
+   "R": {
+    "conf": 80.16,
+    "kata": 70,
+    "kata_acuan_ditemukan": 8,
+    "kata_acuan_total": 10,
+    "proporsi_acuan": 0.8,
+    "cuplikan": "PROVINSI DKI JAKARTA JAKARTA TIMUR NIK : Nama : BILLY BUMBLEBEE SIFULAN TempatiTgi Lahir : SURABAYA, 01-01-19980 Jenis Kelamin : LAKI-LAKI Gol. Darah "
+   }
+  },
+  "ktp_fulani.jpg": {
+   "B": {
+    "conf": 72.37,
+    "kata": 71,
+    "kata_acuan_ditemukan": 9,
+    "kata_acuan_total": 10,
+    "proporsi_acuan": 0.9,
+    "cuplikan": "PROVINSI TEMPAT ANDA KOTA ANDA NIK : 4529643389000738 Namea : Nama Asi Anda Tempeat/Tgi Lahir : KotaLahir / 07 - 07 - 19897 Jenis kelamin 1 Laiki Laki"
+   },
+   "G": {
+    "conf": 74.73,
+    "kata": 70,
+    "kata_acuan_ditemukan": 9,
+    "kata_acuan_total": 10,
+    "proporsi_acuan": 0.9,
+    "cuplikan": "PROVINSI TEMPAT ANDA KOTA ANDA NIK : 4529643389000738 Nama : Nama Asil Anda : KotaLahir/ 07 - 07 - 1997 Jenis kelamin : Laii Laki / Perempuan Alamat :"
+   },
+   "R": {
+    "conf": 31.7,
+    "kata": 23,
+    "kata_acuan_ditemukan": 0,
+    "kata_acuan_total": 10,
+    "proporsi_acuan": 0.0,
+    "cuplikan": "p Ikk SD Da NA O S & Ke SD WN GN A N aN $ I E OO N E AEI K"
+   }
+  },
+  "ktp_jack.jpg": {
+   "B": {
+    "conf": 53.81,
+    "kata": 43,
+    "kata_acuan_ditemukan": 6,
+    "kata_acuan_total": 10,
+    "proporsi_acuan": 0.6,
+    "cuplikan": "PROVINSI DKI JAKARTA JAKARTA PUSAT NIK : W JOKO WIDODO . Lahir .BURAKARTA, Janin Kelamin Gel A Alamat iJ TAMAN SUNOPATI ND. 7 608 / O08 KelDesa : MENT"
+   },
+   "G": {
+    "conf": 57.2,
+    "kata": 46,
+    "kata_acuan_ditemukan": 4,
+    "kata_acuan_total": 10,
+    "proporsi_acuan": 0.4,
+    "cuplikan": "PROVINSI DKI JAKARIA JAKARTA PUSAT 1 NIK : 337205210b51000b W JOKO WDODO ! .BURAKARTA, 21-09-r961 Kelamin Gel Deruh A , N-: : . TAMAN SUNOPATI NO. 7 '"
+   },
+   "R": {
+    "conf": 53.0,
+    "kata": 43,
+    "kata_acuan_ditemukan": 2,
+    "kata_acuan_total": 10,
+    "proporsi_acuan": 0.2,
+    "cuplikan": "PROVINS!I DKI JAKARTA JAKARTA PUSAT WIK : 337205210bbi000b 21-08- 1981 . — Gel Derah . A 1— Al .I TAMAN SUROPATI NO. 7 Ye | :008 / O4 : KetDesa — :MEN"
+   }
+  }
+ },
+ "ktp_pembanding": {
+  "ktp_adam.jpg": {
+   "Berwarna": 0.7,
+   "Otsu": 0.0,
+   "Adaptive": 0.0
+  },
+  "ktp_fulan.jpg": {
+   "Berwarna": 1.0,
+   "Otsu": 1.0,
+   "Adaptive": 0.9
+  },
+  "ktp_fulani.jpg": {
+   "Berwarna": 1.0,
+   "Otsu": 0.7,
+   "Adaptive": 0.2
+  },
+  "ktp_jack.jpg": {
+   "Berwarna": 0.6,
+   "Otsu": 0.6,
+   "Adaptive": 0.9
+  }
+ }
+}
